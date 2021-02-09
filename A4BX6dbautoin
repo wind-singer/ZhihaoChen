@@ -1,5 +1,5 @@
 自动填充程序
-import xlwt
+import xlwt #导入xlwt库
 
 def initialization(): #第一行初始化
 
