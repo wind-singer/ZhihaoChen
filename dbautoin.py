@@ -1,0 +1,152 @@
+import xlwt
+
+def initialization(): #第一行初始化
+
+    worksheet.write(0, 0, 'formula')
+    worksheet.write(0, 1, 'A element:Cs')
+    worksheet.write(0, 2, 'Rb')
+    worksheet.write(0, 3, 'K')
+    worksheet.write(0, 4, 'B element:Ge')
+    worksheet.write(0, 5, 'Sn')
+    worksheet.write(0, 6, 'Pb')
+    worksheet.write(0, 7, 'X element:F')
+    worksheet.write(0, 8, 'Cl')
+    worksheet.write(0, 9, 'Br')
+    worksheet.write(0, 10, 'I')
+    worksheet.write(0, 11, 'ELECTRONEGATIVITY')
+    worksheet.write(0, 21, 'Atomic Electron Affinities')
+    worksheet.write(0, 31, 'Atomic radius')
+    worksheet.write(0, 41, 'Relative atomic mass')
+
+def rushdata( A , B , X, n):
+
+    formula = ''
+
+    Alist = ['K', 'Rb', 'Cs']
+    Blist = ['Ge', 'Sn', 'Pb']
+    Xlist = ['F', 'Cl', 'Br', 'I']
+
+    Ades = [0.82,0.82,0.79,0.50147,0.48592,0.471626,203,216,235,39,85.5,133]
+    Bdes = [2.01,1.96,1.80,1.232712,1.112067,0.364,122,140,147,73,121.76,207]
+    Xdes = [3.98,3.16,2.96,2.66,3.4011895,3.612724,3.363588,3.059037,64,99,114,133,19,35.5,80,127]
+
+    for i in range(3):
+
+        if A[i] != 0:
+
+            formula = formula + Alist[i] + str(A[i])
+
+            worksheet.write(n, i + 1, A[i])  # 数量填充
+
+            for j in range(4):
+
+              worksheet.write(n, i + 1 + ( j + 1 ) * 10, Ades[j * 3 +i])
+        
+        else:
+
+            worksheet.write(n, i + 1, 'none')  # 数量填充
+
+            for j in range(4):
+
+              worksheet.write(n, i + 1 + ( j + 1 ) * 10, 'none')
+
+    for i in range(3):
+
+        if (B[i] != 0):
+
+            formula = formula + Blist[i]
+
+            worksheet.write(n, i + 4, B[i])
+
+            for j in range(4):
+
+              worksheet.write(n, i + 4 + ( j + 1 ) * 10, Bdes[j * 3 +i])
+
+        else:
+
+            worksheet.write(n, i + 4, 'none')  # 数量填充
+
+            for j in range(4):
+
+              worksheet.write(n, i + 4 + ( j + 1 ) * 10, 'none')
+
+    for i in range(4):
+
+        if (X[i] != 0):
+
+            formula = formula + Xlist[i] + str(X[i])
+
+            worksheet.write(n, i + 7, X[i])  # 数量填充
+
+            for j in range(4):
+
+              worksheet.write(n, i + 7 + ( j + 1 ) * 10, Xdes[j * 3 +i])
+
+        else:
+
+            worksheet.write(n, i + 7, 'none')  # 数量填充
+
+            for j in range(4):
+
+              worksheet.write(n, i + 7 + ( j + 1 ) * 10, 'none')
+
+    #print(formula)
+
+    worksheet.write(n, 0 , formula)
+
+    return
+
+def getele( C , Call , n , m , p , tot): #取A
+
+    if (n == 0):
+
+        for i in range(len(C)):
+
+            Call[tot][i] = C[i]
+
+        return tot + 1
+
+    for i in range(p,m):
+
+        C[i] = C[i] + 1
+
+        tot = getele(C ,Call ,n-1, m, i, tot )
+
+        C[i] = C[i] - 1
+
+    return tot
+
+workbook = xlwt.Workbook(encoding = 'ascii')
+
+worksheet = workbook.add_sheet('My Worksheet') #创建Excel及表格
+
+initialization() #初始化
+
+Aall = [[0] * 3 for row in range(20)]
+Xall = [[0] * 4 for row in range(100)]
+
+A = [0 for i in range(3)]
+B = [0 for i in range(3)]
+X = [0 for i in range(4)] #ABX三位元素的数
+
+tota = getele( A , Aall , 4 , 3 , 0 , 0) #获取A位元素
+
+totx = getele( X , Xall , 6 , 4 , 0 , 0) #获取X位元素
+
+n = 1
+
+for i in range(tota):
+
+    for j in range(3):
+
+        for k in range(totx):
+
+            B[j] = 1
+
+            rushdata( Aall[i] , B , Xall[k] , n)
+
+            n = n+1
+
+            B[j] = 0
+
+workbook.save('result.xls') # 保存文件
