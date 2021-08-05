@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XCD []>
+<XCD Version="8.0" NumCharts="1">
+	<CHART_2D>
+		<DATA_2D NumSeries="1">
+			<SERIES_2D UniqueID="0" Name="Total Energy" NumPoints="98">
+				<POINT_2D XY="1,-44644.704417318" ItemData="1"/>
+				<POINT_2D XY="2,-44644.7212620733" ItemData="2"/>
+				<POINT_2D XY="3,-44644.7338338087" ItemData="3"/>
+				<POINT_2D XY="4,-44644.7427844736" ItemData="4"/>
+				<POINT_2D XY="5,-44644.7444773741" ItemData="5"/>
+				<POINT_2D XY="6,-44644.7450286865" ItemData="6"/>
+				<POINT_2D XY="7,-44644.7463886761" ItemData="7"/>
+				<POINT_2D XY="8,-44644.7467151193" ItemData="8"/>
+				<POINT_2D XY="9,-44644.7463078717" ItemData="9"/>
+				<POINT_2D XY="10,-44644.7466424748" ItemData="10"/>
+				<POINT_2D XY="11,-44644.7460521919" ItemData="11"/>
+				<POINT_2D XY="12,-44644.7461820241" ItemData="12"/>
+				<POINT_2D XY="13,-44644.7475012535" ItemData="13"/>
+				<POINT_2D XY="14,-44644.7481755706" ItemData="14"/>
+				<POINT_2D XY="15,-44644.7482430854" ItemData="15"/>
+				<POINT_2D XY="16,-44644.748532328" ItemData="16"/>
+				<POINT_2D XY="17,-44644.7482583918" ItemData="17"/>
+				<POINT_2D XY="18,-44644.7482981636" ItemData="18"/>
+				<POINT_2D XY="19,-44644.7476746883" ItemData="19"/>
+				<POINT_2D XY="20,-44644.7478578988" ItemData="20"/>
+				<POINT_2D XY="21,-44644.7480445197" ItemData="21"/>
+				<POINT_2D XY="22,-44644.7484415444" ItemData="22"/>
+				<POINT_2D XY="23,-44644.7496217645" ItemData="23"/>
+				<POINT_2D XY="24,-44644.7500379871" ItemData="24"/>
+				<POINT_2D XY="25,-44644.7495922045" ItemData="25"/>
+				<POINT_2D XY="26,-44644.7473924596" ItemData="26"/>
+				<POINT_2D XY="27,-44644.750441534" ItemData="27"/>
+				<POINT_2D XY="28,-44644.7494957087" ItemData="28"/>
+				<POINT_2D XY="29,-44644.7523233299" ItemData="29"/>
+				<POINT_2D XY="30,-44644.7547846465" ItemData="30"/>
+				<POINT_2D XY="31,-44644.756050318" ItemData="31"/>
+				<POINT_2D XY="32,-44644.7553066681" ItemData="32"/>
+				<POINT_2D XY="33,-44644.7565085506" ItemData="33"/>
+				<POINT_2D XY="34,-44644.7560353311" ItemData="34"/>
+				<POINT_2D XY="35,-44644.7558826502" ItemData="35"/>
+				<POINT_2D XY="36,-44644.756258903" ItemData="36"/>
+				<POINT_2D XY="37,-44644.756076927" ItemData="37"/>
+				<POINT_2D XY="38,-44644.7556943311" ItemData="38"/>
+				<POINT_2D XY="39,-44644.7543491078" ItemData="39"/>
+				<POINT_2D XY="40,-44644.7555768447" ItemData="40"/>
+				<POINT_2D XY="41,-44644.7557842212" ItemData="41"/>
+				<POINT_2D XY="42,-44644.7572842387" ItemData="42"/>
+				<POINT_2D XY="43,-44644.7557624835" ItemData="43"/>
+				<POINT_2D XY="44,-44644.7562089032" ItemData="44"/>
+				<POINT_2D XY="45,-44644.7553156233" ItemData="45"/>
+				<POINT_2D XY="46,-44644.7563868762" ItemData="46"/>
+				<POINT_2D XY="47,-44644.755063095" ItemData="47"/>
+				<POINT_2D XY="48,-44644.7575495776" ItemData="48"/>
+				<POINT_2D XY="49,-44644.7556987536" ItemData="49"/>
+				<POINT_2D XY="50,-44644.754868374" ItemData="50"/>
+				<POINT_2D XY="51,-44644.7557694794" ItemData="51"/>
+				<POINT_2D XY="52,-44644.7557685474" ItemData="52"/>
+				<POINT_2D XY="53,-44644.7563581974" ItemData="53"/>
+				<POINT_2D XY="54,-44644.7568282232" ItemData="54"/>
+				<POINT_2D XY="55,-44644.7561754466" ItemData="55"/>
+				<POINT_2D XY="56,-44644.7562578513" ItemData="56"/>
+				<POINT_2D XY="57,-44644.7558394448" ItemData="57"/>
+				<POINT_2D XY="58,-44644.7563187823" ItemData="58"/>
+				<POINT_2D XY="59,-44644.7544931755" ItemData="59"/>
+				<POINT_2D XY="60,-44644.7569038959" ItemData="60"/>
+				<POINT_2D XY="61,-44644.7561505123" ItemData="61"/>
+				<POINT_2D XY="62,-44644.7559259906" ItemData="62"/>
+				<POINT_2D XY="63,-44644.7569120297" ItemData="63"/>
+				<POINT_2D XY="64,-44644.7570233402" ItemData="64"/>
+				<POINT_2D XY="65,-44644.7548103533" ItemData="65"/>
+				<POINT_2D XY="66,-44644.7575538618" ItemData="66"/>
+				<POINT_2D XY="67,-44644.7567996845" ItemData="67"/>
+				<POINT_2D XY="68,-44644.7559964693" ItemData="68"/>
+				<POINT_2D XY="69,-44644.7560698859" ItemData="69"/>
+				<POINT_2D XY="70,-44644.757201348" ItemData="70"/>
+				<POINT_2D XY="71,-44644.7552858508" ItemData="71"/>
+				<POINT_2D XY="72,-44644.7576643876" ItemData="72"/>
+				<POINT_2D XY="73,-44644.7567741633" ItemData="73"/>
+				<POINT_2D XY="74,-44644.7567516041" ItemData="74"/>
+				<POINT_2D XY="75,-44644.7565311627" ItemData="75"/>
+				<POINT_2D XY="76,-44644.7568975587" ItemData="76"/>
+				<POINT_2D XY="77,-44644.7566904771" ItemData="77"/>
+				<POINT_2D XY="78,-44644.7575061448" ItemData="78"/>
+				<POINT_2D XY="79,-44644.7570355462" ItemData="79"/>
+				<POINT_2D XY="80,-44644.75645732" ItemData="80"/>
+				<POINT_2D XY="81,-44644.7562805408" ItemData="81"/>
+				<POINT_2D XY="82,-44644.7568390222" ItemData="82"/>
+				<POINT_2D XY="83,-44644.7565278051" ItemData="83"/>
+				<POINT_2D XY="84,-44644.7571249344" ItemData="84"/>
+				<POINT_2D XY="85,-44644.7568573537" ItemData="85"/>
+				<POINT_2D XY="86,-44644.756434406" ItemData="86"/>
+				<POINT_2D XY="87,-44644.7553860713" ItemData="87"/>
+				<POINT_2D XY="88,-44644.7558072362" ItemData="88"/>
+				<POINT_2D XY="89,-44644.7564943743" ItemData="89"/>
+				<POINT_2D XY="90,-44644.7567533762" ItemData="90"/>
+				<POINT_2D XY="91,-44644.7569459284" ItemData="91"/>
+				<POINT_2D XY="92,-44644.7565488012" ItemData="92"/>
+				<POINT_2D XY="93,-44644.7554575013" ItemData="93"/>
+				<POINT_2D XY="94,-44644.7558999423" ItemData="94"/>
+				<POINT_2D XY="95,-44644.7553976116" ItemData="95"/>
+				<POINT_2D XY="96,-44644.7563323166" ItemData="96"/>
+				<POINT_2D XY="97,-44644.7563610574" ItemData="97"/>
+				<POINT_2D XY="98,-44644.7563664084" ItemData="98"/>
+			</SERIES_2D>
+		</DATA_2D>
+		<MARKERS_2D NumMarkers="0"/>
+		<CARTESIAN_2D_PLOT PlotType="Line" Visible="1" BackgroundColor="255,255,255" ForegroundColor="0,0,0" Box="1">
+			<TITLE Visible="1" Text="DMol3 Geometry Optimization">
+				<FONT/>
+			</TITLE>
+			<LEGEND Visible="1" Heading=""/>
+			<CARTESIAN_AXES_2D XVisible="1" YVisible="1" XReversed="0" YReversed="0" XLabel="Optimization Step" YLabel="Energy/Ha" XOriginPos="Min" YOriginPos="Min" XTickPos="Auto" YTickPos="Auto">
+				<AXIS_X>
+					<FONT/>
+				</AXIS_X>
+				<AXIS_Y>
+					<FONT/>
+				</AXIS_Y>
+			</CARTESIAN_AXES_2D>
+			<CARTESIAN_GRID_2D XGrid="Off" YGrid="Off"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineWidth="1" LineStyle="Solid" LineColor="0,155,0" SymbolSize="6" SymbolShape="Dot" SymbolColor="0,155,0" BarOrientation="Horizontal" BarWidth="0.5" BarColor="0,0,255" DendrogramCursorColor="0,0,255" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+		</CARTESIAN_2D_PLOT>
+	</CHART_2D>
+</XCD>

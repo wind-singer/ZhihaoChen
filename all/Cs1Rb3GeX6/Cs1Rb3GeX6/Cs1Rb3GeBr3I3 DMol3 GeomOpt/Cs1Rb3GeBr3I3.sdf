@@ -1,0 +1,42 @@
+Materials Studio SDF calculation
+TCVAMP81A 
+
+ 11  0  0  0  0  0              1 V2000
+   -4.4571   -7.2804   -3.4879 Rb  0  0
+   -3.9444   -4.7445    0.1647 Ge  0  0
+   -2.8885   -7.9443   -0.0739 Br  0  0
+   -4.9493   -1.5360    0.2655 Br  0  0
+   -2.6640   -4.0571   -4.0345 I   0  0
+   -1.6958   -1.2996   -1.7173 Cs  0  0
+   -6.9325   -5.7362   -1.0217 Br  0  0
+   -0.8772   -3.7339    1.1083 I   0  0
+   -4.8642   -5.2000    3.2112 I   0  0
+   -7.8882   -3.3709    1.7542 Rb  0  0
+   -1.4022   -6.8236    3.2063 Rb  0  0
+M  END
+
+> <TOTAL ENERGY>
+ACCELRYS, TYPE=DOUBLE, VERSION=1                                                
+-44644.75636641
+
+> <BINDING ENERGY>
+ACCELRYS, TYPE=DOUBLE, VERSION=1                                                
+    -0.96083615
+
+> <HOMO ENERGY>
+ACCELRYS, TYPE=DOUBLE, VERSION=1                                                
+    -0.15948284
+
+> <LUMO ENERGY>
+ACCELRYS, TYPE=DOUBLE, VERSION=1                                                
+    -0.05403068
+
+> <LUMO-HOMO ENERGY>
+ACCELRYS, TYPE=DOUBLE, VERSION=1                                                
+     0.10545216
+
+> <OPERATION STATUS>
+ACCELRYS, TYPE=STATUS, VERSION=1                                                
+SUCCESS
+
+$$$$

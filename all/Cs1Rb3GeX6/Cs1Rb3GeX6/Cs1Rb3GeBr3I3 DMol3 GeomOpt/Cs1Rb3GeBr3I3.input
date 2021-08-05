@@ -1,0 +1,40 @@
+
+# Task parameters
+Calculate                     optimize
+Opt_energy_convergence        1.0000e-005
+Opt_gradient_convergence      2.0000e-003 A
+Opt_displacement_convergence  5.0000e-003 A
+Opt_iterations                999
+Opt_max_displacement          0.3000 A
+Initial_hessian               improved
+Symmetry                      off
+Max_memory                    4048
+File_usage                    smart
+Scf_density_convergence       1.000000e-006
+Scf_charge_mixing             2.000000e-001
+Scf_diis                      6 pulay
+Scf_iterations                999
+
+# Electronic parameters
+Spin_polarization             restricted
+Charge                        0
+Basis                         dnp
+basis_version                 basfile_v4.4
+Pseudopotential               vpsr
+Functional                    pbe
+Aux_density                   octupole
+Integration_grid              fine
+Occupation                    fermi
+Cutoff_Global                 6.1000 angstrom
+
+# Print options
+Print                         eigval_last_it
+
+# Calculated properties
+Print_eigval_window           -1.d9
+Plot                          homo
+Plot                          lumo
+Plot                          fermi 2
+Tddft                         100
+Tddft_xc                      singlet_alda
+Grid                          msbox  3 0.1500 0.1500 0.1500 3.0000
